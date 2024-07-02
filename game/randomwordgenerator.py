@@ -1,0 +1,7 @@
+from random import randint
+
+def pick_random_word():
+  word_list = ["apple","little", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew","kiwi", "lemon", "mango", "nectarine", "orange", "papaya", "quince", "raspberry","strawberry", "tangerine", "ugly", "vanilla", "watermelon", "xigua", "yam", "zucchini","airplane", "bicycle", "car", "drone", "elephant", "frog", "giraffe", "house","igloo", "jacket", "kangaroo", "lion", "mountain", "notebook", "ocean", "penguin","queen", "robot", "snake", "turtle", "umbrella", "vulture", "whale", "xylophone", "yacht", "zebra", "beautiful", "quick", "happy", "sad", "angry", "excited", "run", "jump", "swim", "fly", "drive", "write", "read", "sing", "dance", "laugh","book", "pen", "paper", "desk", "chair", "window", "door", "computer", "phone","sun", "moon", "star", "sky", "cloud", "rain", "snow", "wind", "tree", "flower", "grass", "river", "lake", "forest", "mountain", "hill", "valley", "beach", "happy", "sad", "angry", "excited", "bored", "tired", "sleepy", "hungry","beautiful", "ugly","tall", "short", "big", "small", "long", "short", "fast","slow", "hot", "cold", "warm", "cool", "young", "old", "new", "ancient", "love", "hate", "like", "dislike", "enjoy", "prefer", "adore", "despise","hello", "goodbye", "please", "thank", "sorry", "yes", "no", "maybe", "always", "never", "often", "sometimes", "rarely", "seldom","usually", "occasionally","mad","goat"]
+  selected_index= randint(0,len(word_list)-1)
+  return word_list[selected_index]
+

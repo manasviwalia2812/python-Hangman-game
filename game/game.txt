@@ -1,0 +1,19 @@
+Hangman game
+1. we need the word
+2. create no. of dashes as per the no. of words
+3. loop till either user guessed the word or chances are exhausted
+4. check function to check whether the alphabet guessed by user is correct or not
+5. we need a function to update current status 
+6. function to check whether game has ended or not
+
+FLOWCHART
+star
+select random word
+take input char from user
+if char is in the word---replace dash with char at its index
+if char is not in the word---reduce chances
+print user string
+if user string equals to selected string---win
+if user string is not equal to selected string---check attempts left
+if attempts left equals 0---lost
+if attempts left not equals 0--take input char from user
